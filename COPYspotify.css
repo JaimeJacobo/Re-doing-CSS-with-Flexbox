@@ -1,0 +1,77 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+body {
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+
+}
+
+.navBar img {
+    width: 8vw;
+    
+}
+
+.navBarText {
+    display: flex;
+    order: 1;
+    width: 28vw;
+    justify-content: space-around;
+}
+
+.firstLogoAndImage {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #FFF;
+}
+
+.pInside {
+    font-size: 35px;
+}
+
+.firstLogoAndImage h1 {
+    font-size: 5em;
+}
+
+.whiteBackground {
+    background-color: white;
+    height: 140vh;
+}
+
+.whatsOnSpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 76vh;
+}
+
+.titleOfWhatsOnSpotify {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.restOfWhatsOnSpotify{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
